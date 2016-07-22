@@ -39,24 +39,24 @@ return [
         'secret' => env('STRIPE_SECRET'),
     ],
     'github' => [
-        'client_id' => 'a2111f49a46c7a6d1114',
-        'client_secret' => '5277af4c33937ea74ad955480c5168bec523fed6',
-        'redirect' => 'http://farahty.com/storeuser',
+        'client_id' => env('GITHUB_CLIENT' ,'test'),
+        'client_secret' => env('GITHUB_SECRET' ,'test'),
+        'redirect' => env('GITHUB_REDIRECT' ,'test'),
     ],
     'google' => [
-        'client_id' => '381784689239-mcdrt5d2f82t1ikuhjuufn22r6kgr2tp.apps.googleusercontent.com',
-        'client_secret' => 'CAUr95_HPJAPEYliuMoPeQbW',
-        'redirect' => 'http://farahty.com/storeuser',
+        'client_id' => env('GOOGLE_CLIENT' ,'test'),
+        'client_secret' => env('GOOGLE_SECRET' ,'test'),
+        'redirect' => env('GOOGLE_REDIRECT' ,'test'),
     ],
     'facebook' => [
-        'client_id' => '1053890594693247',
-        'client_secret' => '7feb6bbb506f77af5b24a8cd4463d626',
-        'redirect' => 'http://farahty.com/storeuser',
+        'client_id' => env('FACEBOOK_CLIENT' ,'test'),
+        'client_secret' => env('FACEBOOK_SECRET' ,'test'),
+        'redirect' => env('FACEBOOK_REDIRECT' ,'test'),
     ],
     'twitter' => [
-        'client_id' => 'TWxwgZ1OuZX95g9SLTtnRSI0H',
-        'client_secret' => 'JYIscK8RVHS7tqOsSQ5VMaCxIIYhEMRqG58WXiczQV25A1It5V',
-        'redirect' => 'http://farahty.com/storeuser',
+        'client_id' => env('TWITTER_CLIENT' ,'test'),
+        'client_secret' => env('TWITTER_SECRET' ,'test'),
+        'redirect' => env('TWITTER_REDIRECT' ,'test'),
     ],
 
 ];

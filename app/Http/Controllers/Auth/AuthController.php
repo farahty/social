@@ -96,7 +96,7 @@ class AuthController extends Controller
                 'account_id' =>$social_user->id,
                 'account_type' => $social,
                 'name' =>isset($social_user->name) ? $social_user->name : '' ,
-                'email' =>isset($social_user->email) ? $social_user->email : '' ,
+                'email' =>isset($social_user->email) ? $social_user->email : $social_user->id.'@'.env('APP_DOMAIN','farahty.com') ,
                 'avatar' =>isset($social_user->avatar) ? $social_user->avatar : '' ,
                 'api_token' => str_random(60),
             );
