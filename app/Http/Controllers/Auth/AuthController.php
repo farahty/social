@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Auth;
 
 use App\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Session;
+use Laravel\Socialite\Two\InvalidStateException;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
@@ -72,7 +74,12 @@ class AuthController extends Controller
     {
         $driver =$request->session()->get('driver');
         $user = $this->getSocialUser($driver);
+        if( ! $user) {
+            Session::flash('error' , 'Authentication Failed');
+            return redirect('/login');
+        }
         Auth::loginUsingId($user->id);
+
         if($request->ajax()){
             return compact('user');
         }
@@ -80,9 +87,11 @@ class AuthController extends Controller
     }
 
     private function getSocialUser($social){
+        try{
         $social_user = Socialize::driver($social)->user();
         $user = User::where('account_id' ,'=' , $social_user->getId())->first();
-        if(! $user){
+
+            if(! $user){
             $user_data = array(
                 'account_id' =>$social_user->id,
                 'account_type' => $social,
@@ -92,6 +101,13 @@ class AuthController extends Controller
                 'api_token' => str_random(60),
             );
             $user = User::create($user_data);
+        }
+        }catch(InvalidStateException $ex){
+            Session::flash('ex' , 'Invalid state exception');
+            return null;
+        }catch(\Exception $ex){
+            Session::flash('ex' , 'The Email is already in use');
+            return null;
         }
         return $user;
     }

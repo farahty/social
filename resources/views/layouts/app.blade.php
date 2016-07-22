@@ -77,6 +77,16 @@
             </div>
         </div>
     </nav>
+    @if(Session::has('error'))
+        <div class="container">
+            <div class="alert alert-danger" role="alert">
+                <ul>
+                    <li>{{ Session::get('error') }}</li>
+                    <li>{{ Session::get('ex') }}</li>
+                </ul>
+            </div>
+        </div>
+    @endif
 
     @yield('content')
 
