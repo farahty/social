@@ -11,20 +11,20 @@
                     <div class="row">
 
                         <div class="col-sm-6 col-sm-offset-3">
-                            <a href="{{ url('/social/github') }}" class="btn btn-block btn-social btn-github">
+                            <a href="{{ route('social' , ['driver' => 'github']) }}" class="btn btn-block btn-social btn-github">
                                 <span class="fa fa-github"></span>
                                 Sign in or Register with Github
                             </a>
-                            <a href="{{ url('/social/twitter') }}" class="btn btn-block btn-social btn-twitter">
+                            <a href="{{ route('social' , ['driver' => 'twitter']) }}" class="btn btn-block btn-social btn-twitter">
                                 <span class="fa fa-twitter"></span>
                                 Sign in or Register with Twitter
                             </a>
 
-                            <a  href="{{ url('/social/facebook') }}" class="btn btn-block btn-social btn-facebook">
+                            <a  href="{{ route('social' , ['driver' => 'facebook']) }}" class="btn btn-block btn-social btn-facebook">
                                 <span class="fa fa-facebook"></span>
                                 Sign in or Register with Facebook
                             </a>
-                            <a  href="{{ url('/social/google') }}" class="btn btn-block btn-social btn-google">
+                            <a  href="{{ route('social' , ['driver' => 'google']) }}" class="btn btn-block btn-social btn-google">
                                 <span class="fa fa-google"></span>
                                 Sign in or Register with Google
                             </a>

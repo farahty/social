@@ -20,7 +20,7 @@ Route::auth();
 Route::get('/home', 'HomeController@index');
 
 Route::group(['prefix' => '/social'],function(){
-    Route::get('/{driver}' , 'Auth\AuthController@callDriver');
+    Route::get('/{driver}' , 'Auth\AuthController@callDriver')->name('social');
     Route::get('/{driver}/callback' ,'Auth\AuthController@driverCallback');
 });
 
