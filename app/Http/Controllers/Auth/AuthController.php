@@ -47,42 +47,20 @@ class AuthController extends Controller
         ]);
     }
 
-    public function google(Request $request)
+    public function callDriver($driver)
     {
-        $request->session()->set('driver' , 'google');
-        return Socialize::driver('google')->redirect();
-    }
-    public function facebook(Request $request)
-    {
-        $request->session()->set('driver' , 'facebook');
-        return Socialize::driver('facebook')->redirect();
+        return Socialize::driver($driver)->redirect();
     }
 
-    public function github(Request $request)
-    {
-        $request->session()->set('driver' , 'github');
-        return Socialize::with('github')->redirect();
-    }
 
-    public function twitter(Request $request)
+    public function driverCallback( $driver)
     {
-        $request->session()->set('driver' , 'twitter');
-        return Socialize::with('twitter')->redirect();
-    }
-
-    public function handleProviderCallback(Request $request)
-    {
-        $driver =$request->session()->get('driver');
         $user = $this->getSocialUser($driver);
         if( ! $user) {
             Session::flash('error' , 'Authentication Failed');
             return redirect('/login');
         }
         Auth::loginUsingId($user->id);
-
-        if($request->ajax()){
-            return compact('user');
-        }
         return redirect('/home');
     }
 

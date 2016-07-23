@@ -1,0 +1,87 @@
+127.0.0.1 - - [23/Jul/2016:13:38:56 +0300] "GET /home HTTP/1.1" 302 340
+127.0.0.1 - - [23/Jul/2016:13:38:58 +0300] "GET /login HTTP/1.1" 200 6674
+127.0.0.1 - - [23/Jul/2016:13:38:59 +0300] "GET /favicon.ico HTTP/1.1" 304 -
+127.0.0.1 - - [23/Jul/2016:13:39:03 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:13:39:05 +0300] "GET /login HTTP/1.1" 200 6674
+127.0.0.1 - - [23/Jul/2016:13:39:09 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:13:39:30 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:13:39:31 +0300] "GET /home HTTP/1.1" 302 340
+127.0.0.1 - - [23/Jul/2016:13:39:31 +0300] "GET /login HTTP/1.1" 200 6674
+127.0.0.1 - - [23/Jul/2016:13:49:31 +0300] "GET /social/google HTTP/1.1" 404 11078
+127.0.0.1 - - [23/Jul/2016:13:49:54 +0300] "GET /social/google/ HTTP/1.1" 301 240
+127.0.0.1 - - [23/Jul/2016:13:49:54 +0300] "GET /social/google HTTP/1.1" 404 11078
+127.0.0.1 - - [23/Jul/2016:13:50:14 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:13:50:14 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:13:50:14 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:13:50:26 +0300] "GET /social/google HTTP/1.1" 200 6
+127.0.0.1 - - [23/Jul/2016:13:50:26 +0300] "GET /favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [23/Jul/2016:13:50:46 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:13:50:46 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:13:50:46 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:13:51:29 +0300] "GET /social/google/callbacke HTTP/1.1" 200 16
+127.0.0.1 - - [23/Jul/2016:13:51:49 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:13:51:49 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:13:53:15 +0300] "GET /social/google HTTP/1.1" 200 6
+127.0.0.1 - - [23/Jul/2016:13:53:35 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:13:53:35 +0300] "-" 408 -
+127.0.0.1 - - [23/Jul/2016:14:02:17 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:14:02:19 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:02:23 +0300] "GET /social/facebook HTTP/1.1" 302 1096
+127.0.0.1 - - [23/Jul/2016:14:02:24 +0300] "GET /storeuser?code=AQBpJJOiHH6gxqU-HOt8sDkUo9IFC42VwYgXQyKOtiV2diC732qNm2LXAju4ONk5GXiynpK0pM3JOW2pwXcEa9ZTQERjHL50JkVa0YZScVLavS7Gcl_QFKY9S9fndsqyv2tgpUI6BWrke10OpwKmJuY5fHbnC-Jrd0Wnwnim2k0hQGH5-7v-jRa90Uiv0du_9ubhhTk0pi25bX0lEnuoffCBNI9oIz4NiTom93177aigRvDAUD3ZlFQoVzjvn1l1bTrCqe82WmbbPYetI-CqT-BS5ltZ14P4Imggn8Le0gv7OrD7J4VE3fBgX9-H252meXA&state=Xuwwi37MLsM8S7tVwRwwu0FctMgKp7wN2jj0nVR8 HTTP/1.1" 404 11078
+127.0.0.1 - - [23/Jul/2016:14:04:25 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:14:04:27 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:04:29 +0300] "GET /social/facebook HTTP/1.1" 302 1176
+127.0.0.1 - - [23/Jul/2016:14:04:30 +0300] "GET /social/facebook/callbacke?code=AQDTenIN5-CSuv0mu8plVZD_H5_Q8fCniLRixJrS5ffSNiCfXa0aOgxbdOnLVpKOxxNXb7HpdXuLrsmOJPdIvZp99pz9Xu17_EhW8fpRIrU1fqW0rXcwGbYsTa1S2fHz7X00IJ-t8FsESVL4x65T8hLmL5XkF6eqXA5xskd5VnKbbLOCeLu_5X99RBlYGeTH_hrcrhnLzp0hITYecYRLfwBxoxe7jPjvSqAatzUu0MgNRlVybW6HZjiITnww7js1uPxBlhJ80mhQtLH4ie8XZKKr3hTDhbg50V8635da2EJrzrZTAUhf79eLDM68vKLH6Gs&state=UH66Rn7nbsdpyFMrOnHZDjtbDjWqvDhXMmCgpGNo HTTP/1.1" 302 336
+127.0.0.1 - - [23/Jul/2016:14:04:31 +0300] "GET /home HTTP/1.1" 200 3878
+127.0.0.1 - - [23/Jul/2016:14:04:40 +0300] "GET /logout HTTP/1.1" 302 316
+127.0.0.1 - - [23/Jul/2016:14:04:40 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:14:04:42 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:04:44 +0300] "GET /social/facebook HTTP/1.1" 302 1176
+127.0.0.1 - - [23/Jul/2016:14:04:44 +0300] "GET /social/facebook/callbacke?code=AQDYZxW8ADtcuG4U6nkYyJfZIf63pA3VTHwDk9b-wuDacw_FH47SD3CgkbnR5pD-PTolRX7LciPPu48Umgy-quh3uq_-SVWdC1tQEiqwUbksROsmAf2Em-iI2hohRcQ57dxR4oJpVKdIUAxgn1GyA8VJ5epLS3G73on6Vg57Ps5OZNsrDliNkpzsD0otebDV4MSkNRBYbI_O0RxliywQT5O_aHHnGwuuaK1cSHEMZBcb3GiCRJAS_wQPDUXFiDJyvS-RLc_CGRLT9Wnb3H0wY_S8p9O4uiRb4YdUjaefs02CA24VJkkruu2ruNXoVb1byPU&state=6YJovYtcXYP5manLhY8zWh0Xlj5JtxaQlQeVQP0D HTTP/1.1" 302 336
+127.0.0.1 - - [23/Jul/2016:14:04:45 +0300] "GET /home HTTP/1.1" 200 3878
+127.0.0.1 - - [23/Jul/2016:14:04:48 +0300] "GET /logout HTTP/1.1" 302 316
+127.0.0.1 - - [23/Jul/2016:14:04:48 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:14:04:49 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:04:52 +0300] "GET /social/google HTTP/1.1" 302 1448
+127.0.0.1 - - [23/Jul/2016:14:05:52 +0300] "GET /social/google HTTP/1.1" 302 1448
+127.0.0.1 - - [23/Jul/2016:14:06:05 +0300] "GET /social/facebook HTTP/1.1" 302 1176
+127.0.0.1 - - [23/Jul/2016:14:06:06 +0300] "GET /social/facebook/callbacke?code=AQD_gCDgigXHDpBnoqm_rtV7VOUaptTRcjBaEMuWdN9vWDRdSG-4a3hklKzwA8fP_NKVvhR9MvPNfZgf03kS7_NyCe2iny4i8bqmj6pxojVFRmIqzh34pRW0CsYBBublujkSR4Cu15smD-PvMnD6_6skLd3b3q2vU1KK7pBtk0w1k_D1O_xGwW13IjtlU0tym9U-Q5RBXX00w3fFQE3mTorTKpDcfejub2tk237iMU2BYnopF8L81aCZi1IH4vIikY8BP15q3xcWEKmRD4pXoJmW7Rlt20uUq_-6H6kIT0qm1ZT4dcnVYsYrwvgg1WVbgM8&state=HMULYtu2xf6DwW2SWSrAChfJXWiBXCtKc3fFb0xR HTTP/1.1" 302 336
+127.0.0.1 - - [23/Jul/2016:14:06:07 +0300] "GET /home HTTP/1.1" 200 3878
+127.0.0.1 - - [23/Jul/2016:14:06:09 +0300] "GET /logout HTTP/1.1" 302 316
+127.0.0.1 - - [23/Jul/2016:14:06:09 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:14:06:11 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:06:13 +0300] "GET /social/google HTTP/1.1" 302 1448
+127.0.0.1 - - [23/Jul/2016:14:08:47 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:14:08:54 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:08:55 +0300] "GET /social/facebook HTTP/1.1" 302 1172
+127.0.0.1 - - [23/Jul/2016:14:08:56 +0300] "GET /social/facebook/callback?code=AQBkDNAk5UKygLEz8Lxzg_uWaaCYLy2d0aBSbtr_jE_L1XrwhlMmKnwRzo7ZLMjGUdmozofy2mFPtO_zsKzhD15a1g93TLOpA317GP5Y3LXo9orx1O6ssIBvarW57dvXb1uq0ye7lRRqBP-kMAU-OfG2m6tfNFNg_R5VAhlJWb8D1KpPZUFz5RvY1jjtGu9yBieXM__mAtJvLr6mwy2cJ9EvJKa51U_g9doAUCWgYAw34U970JvI8KhZqJ7LqiLbTUcw5mC8lwN8igyjAlvBruFMUpThd3WC5AHSBpX7weKrx_030PBxPYgg-6BW4bIQgZE&state=iPUL53XSPN3xzgpcTdExzYgnaArHkS9iJmeSwpiQ HTTP/1.1" 302 336
+127.0.0.1 - - [23/Jul/2016:14:08:57 +0300] "GET /home HTTP/1.1" 200 3878
+127.0.0.1 - - [23/Jul/2016:14:09:00 +0300] "GET /logout HTTP/1.1" 302 316
+127.0.0.1 - - [23/Jul/2016:14:09:00 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:14:09:02 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:09:03 +0300] "GET /social/github HTTP/1.1" 302 1200
+127.0.0.1 - - [23/Jul/2016:14:09:04 +0300] "GET /storeuser?error=redirect_uri_mismatch&error_description=The+redirect_uri+MUST+match+the+registered+callback+URL+for+this+application.&error_uri=https%3A%2F%2Fdeveloper.github.com%2Fv3%2Foauth%2F%23redirect-uri-mismatch&state=owJ0UJE7Aiyh6VrxMl8DmIDjgZPwxAOGDuAOEJ4G HTTP/1.1" 404 11078
+127.0.0.1 - - [23/Jul/2016:14:10:14 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:14:10:16 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:10:18 +0300] "GET /social/github HTTP/1.1" 302 1200
+127.0.0.1 - - [23/Jul/2016:14:10:19 +0300] "GET /social/github/callback?code=32cc276e118c417cbcf6&state=vDTHnZNfCpLltSYSELgFA5qh8BLtBImPX1ZCuogj HTTP/1.1" 302 340
+127.0.0.1 - - [23/Jul/2016:14:10:21 +0300] "GET /login HTTP/1.1" 200 6981
+127.0.0.1 - - [23/Jul/2016:14:10:26 +0300] "GET /social/google HTTP/1.1" 302 1444
+127.0.0.1 - - [23/Jul/2016:14:10:26 +0300] "GET /social/google/callback?state=VzcXDrLxKCEmq9gGxWoBLJI1CDrOAwzleiNUf0Gt&code=4/pNea4jPqif_HsZxb9oSbtlUDQfA2WcrkD1KiHeLZ8vw&authuser=0&session_state=971b666ab2407bac0be427f85144a97e970e0b00..6386&prompt=none HTTP/1.1" 302 340
+127.0.0.1 - - [23/Jul/2016:14:10:28 +0300] "GET /login HTTP/1.1" 200 6981
+127.0.0.1 - - [23/Jul/2016:14:10:32 +0300] "GET /social/facebook HTTP/1.1" 302 1172
+127.0.0.1 - - [23/Jul/2016:14:10:32 +0300] "GET /social/facebook/callback?code=AQCMIm01Qi5b9rebpGIUHwioWo4Js0E3DMFWA1FYjTECopvKZpirZvshe1MCFl3TaF4sWTxYJ-CjiGTZ9DWnwrfTeFJxzx85pl4LJwm6GdODwm71Ta-bSgqniPLQEcI_HA9uTK1cV36c4-goTnQ2o3KTCk_qtxBxORnFFb6iL1TjtbtrovNLhKTAnuFXVFksrsGcWOs-YcsT-vHNVhEz0Y9k32kePyr7etXVpDmFu2f7dhW20rciN0hSz6PCVDmLdpKgg2SqALXS5AjM_1NB9XFsK61e2JsaIZPWpXbUsKpG9wCnUIaYoAW2Ck8pS2cY374&state=zJ1duYsKULeXwyvoZGYaPQie8nRbeKnKammDakaI HTTP/1.1" 302 336
+127.0.0.1 - - [23/Jul/2016:14:10:33 +0300] "GET /home HTTP/1.1" 200 3878
+127.0.0.1 - - [23/Jul/2016:14:10:36 +0300] "GET /logout HTTP/1.1" 302 316
+127.0.0.1 - - [23/Jul/2016:14:10:36 +0300] "GET / HTTP/1.1" 200 3307
+127.0.0.1 - - [23/Jul/2016:14:10:39 +0300] "GET /home HTTP/1.1" 302 340
+127.0.0.1 - - [23/Jul/2016:14:10:39 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:10:40 +0300] "GET /login HTTP/1.1" 200 6702
+127.0.0.1 - - [23/Jul/2016:14:10:42 +0300] "GET /social/google HTTP/1.1" 302 1444
+127.0.0.1 - - [23/Jul/2016:14:10:42 +0300] "GET /social/google/callback?state=g9ZLyQQOCKKr5LqdqRgS7rXvzEjQthE07bBDilIn&code=4/GUzHrRWVOtrz1wCaNvENCTRsXO08lQQhIAHyQ5pmm10&authuser=0&session_state=971b666ab2407bac0be427f85144a97e970e0b00..6386&prompt=none HTTP/1.1" 302 340
+127.0.0.1 - - [23/Jul/2016:14:10:43 +0300] "GET /login HTTP/1.1" 200 6981
+127.0.0.1 - - [23/Jul/2016:14:11:52 +0300] "GET /social/twitter HTTP/1.1" 302 572
+127.0.0.1 - - [23/Jul/2016:14:11:55 +0300] "GET /social/twitter/callback?oauth_token=5aL_oQAAAAAAwNGRAAABVhd0Tuw&oauth_verifier=e1Fm3c5YV2Ra4pPsRy52w5gov467wTkk HTTP/1.1" 302 336
+127.0.0.1 - - [23/Jul/2016:14:11:56 +0300] "GET /home HTTP/1.1" 200 3880
+127.0.0.1 - - [23/Jul/2016:14:12:05 +0300] "GET /logout HTTP/1.1" 302 316
+127.0.0.1 - - [23/Jul/2016:14:12:05 +0300] "GET / HTTP/1.1" 200 3307

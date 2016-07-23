@@ -19,14 +19,10 @@ Route::auth();
 
 Route::get('/home', 'HomeController@index');
 
-
-Route::get('storeuser' ,'Auth\AuthController@handleProviderCallback');
-Route::get('google' ,'Auth\AuthController@google');
-Route::get('facebook' ,'Auth\AuthController@facebook');
-Route::get('github' ,'Auth\AuthController@github');
-Route::get('twitter' ,'Auth\AuthController@twitter');
-
-
+Route::group(['prefix' => '/social'],function(){
+    Route::get('/{driver}' , 'Auth\AuthController@callDriver');
+    Route::get('/{driver}/callback' ,'Auth\AuthController@driverCallback');
+});
 
 
 
